@@ -19,7 +19,8 @@ spec:
     spec:
       containers:
         - name: maven-app
-          image: vivekkulkarni521/maven-app:v1
+          image: vivekkulkarni521/maven-app:v6
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8083
